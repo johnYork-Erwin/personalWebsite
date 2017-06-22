@@ -1,0 +1,134 @@
+nav {
+  clear: both;
+  width: 25%;
+  font-size: 15pt;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto auto;
+  border-radius: 10px;
+  background-color: #EBF5FB;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h4, h3 {
+  clear: both;
+  text-align: center;
+}
+h2 {
+  padding: 10px;
+  margin: 0px;
+  text-decoration: underline;
+  font-size: 25pt;
+}
+h3 {
+  margin: 0px;
+  text-decoration: underline;
+  font-size: 18pt;
+}
+p {
+  clear: both;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 30px;
+}
+img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row {
+  width: 100%;
+}
+p.name {
+  text-indent: 0px;
+  text-align: center;
+}
+.future p {
+  font-size: 1.2em;
+}
+.games .col-1-2 ol {
+  font-size: 1.1em;
+}
+.games .col-1-3 ol {
+  font-size: 1.3em;
+}
+.games p {
+  font-size: 1.2em;
+}
+
+/* declaring the types of columns */
+
+.col-1-3,
+.col-1-2 {
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1-2 {
+  width: 50%;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+
+/* line of images at bottom of home */
+
+#comfort {
+  height: 400px;
+  width: 100%;
+}
+
+/* Background declarations for each page */
+
+.future {
+    background-image: url("../images/clouds-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.home {
+  background: linear-gradient(to right, #B9770E, #BA4A00);
+}
+.games {
+  background: #138D75;
+}
+
+/* backgrounds for sections within the games page */
+.cardGames h2 {
+  height:35px;
+  text-align: center;
+  background-image: url("../images/suitbanner.jpg");
+  background-size: 15%;
+}
+.col-1-3.cardGames {
+  font-weight: bold;
+  background-image: url("../images/suits.jpg");
+  background-size: 17%;
+  background-position: top left;
+  height: 200px;
+}
+.console {
+  height: 270px;
+  background-image: url("../images/nintendo.jpg");
+  background-position: center center;
+  background-size: 100%;
+}
+.computer{
+  font-weight: bold;
+  height: 270px;
+  background-image: url("../images/blizzard-games.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+#bridge {
+  clear: both;
+  background: radial-gradient(#FF0000, #33CC66, #0000FF);
+}
